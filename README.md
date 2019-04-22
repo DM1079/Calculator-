@@ -1,5 +1,5 @@
 # Calculator+
-An Android calculator project
+An Android calculator project in Java
 
 最低Android版本：API 22 (Android 5.1) Lollipop
 
