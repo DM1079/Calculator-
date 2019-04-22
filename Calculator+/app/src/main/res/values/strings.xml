@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Calculator+</string>
+    <string name="btCE">AC</string>
+    <string name="btBackspace">退格</string>
+    <string name="btConstants">科学常数</string>
+    <string name="btFunctions">函数</string>
+    <string name="btUndo">撤销</string>
+    <string name="btRedo">恢复</string>
+    <string name="btSqrt">√</string>
+    <string name="defaultText">输入算式进行计算</string>
+    <string name="version">1.1.022</string>
+    <string name="title_activity_draw_functions">drawFunctions</string>
+</resources>
