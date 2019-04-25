@@ -6,6 +6,7 @@ import java.util.List;
 /**
  * 微积分类 实现定积分、导数值、求和运算
  * @author HK-SHAO
+ * 感谢HK-SHAO以及Calci-Kernel项目的开源
  */
 public class Calculus {
     private static final double[] gaussNodes15 = new double[] {
