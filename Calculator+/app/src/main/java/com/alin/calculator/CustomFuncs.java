@@ -111,8 +111,8 @@ for (int i=0;i<99;i++)
     }
     public void newFunction(){
         final  QMUIDialog.EditTextDialogBuilder builder = new QMUIDialog.EditTextDialogBuilder(CustomFuncs.this);
-        builder.setTitle("灯泡ID输入");
-        builder.setPlaceholder("请在此输入灯泡ID");
+        builder.setTitle("ID输入");
+        builder.setPlaceholder("请在此输入ID");
         builder.setInputType(InputType.TYPE_CLASS_TEXT);
         builder.addAction("取消", new QMUIDialogAction.ActionListener() {
             @Override
@@ -131,10 +131,10 @@ for (int i=0;i<99;i++)
                     if (bulbID >= 0 && bulbID <= 32767) {
                         dialog.dismiss();
                     } else {
-                        Toast.makeText(CustomFuncs.this, "请填入合法灯泡ID", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(CustomFuncs.this, "请填入合法ID", Toast.LENGTH_SHORT).show();
                     }
                 } else {
-                    Toast.makeText(CustomFuncs.this, "请填入合法灯泡ID", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(CustomFuncs.this, "请填入合法ID", Toast.LENGTH_SHORT).show();
                 }
             }
         });
