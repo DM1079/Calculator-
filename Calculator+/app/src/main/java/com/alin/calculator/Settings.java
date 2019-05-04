@@ -202,4 +202,3 @@ public class Settings extends AppCompatActivity {
         Settings.this.startActivity(intent);
     }
 }
-
